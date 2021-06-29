@@ -42,7 +42,7 @@
 
     function onPAReady() {
         console.log(PushAlertCo.subs_id); //if empty then user is not subscribed
-
+        alert(PushAlertCo.subs_id);
         //YOUR CODE
     }
 </script>
