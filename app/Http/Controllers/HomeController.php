@@ -54,6 +54,7 @@ class HomeController extends Controller
             "notification" => [
                 "title" => $request->title,
                 "body" => $request->body,
+                "icon" => "https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/organization/20210312095654_604ad8766d6ba.jpg"
             ]
         ];
         $dataString = json_encode($data);
@@ -74,7 +75,6 @@ class HomeController extends Controller
 
         $response = curl_exec($ch);
 
-        dd($response);
-        return redirect()->route('home');
+        return $response;
     }
 }

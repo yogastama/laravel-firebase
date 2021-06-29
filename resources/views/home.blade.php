@@ -119,5 +119,6 @@
         new Notification(noteTitle, noteOptions);
     });
    
+   
 </script>
 @endsection
