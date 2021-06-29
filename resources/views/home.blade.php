@@ -30,6 +30,9 @@
                         <button type="submit" class="btn btn-primary">Send Notification</button>
                     </form>
   
+                    <button onclick='PushAlertCo.forceSubscribe()'>Subscribe</button>
+                    <button onclick='PushAlertCo.forceSubscribe()'>Unblock</button>
+                    <button onclick='onPAReady()'>OnPar</button>
                 </div>
             </div>
         </div>

@@ -37,6 +37,15 @@
     }(document, "script"));
 </script>
 <!-- End PushAlert -->
+<script>
+    (pushalertbyiw = window.pushalertbyiw || []).push(['onReady', onPAReady]);
+
+    function onPAReady() {
+        console.log(PushAlertCo.subs_id); //if empty then user is not subscribed
+
+        //YOUR CODE
+    }
+</script>
 </head>
 <body>
     <div id="app">
